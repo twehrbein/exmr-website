@@ -21,7 +21,6 @@ The page is then served at https://twehrbein.github.io/exmr-website/ (like the F
 ## To do when available
 
 Search `index.html` for `TODO`:
-- arXiv button URL and the arXiv identifier in the BibTeX entry.
 - Code button URL.
 
 ## Assets
