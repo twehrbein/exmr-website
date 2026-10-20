@@ -18,11 +18,6 @@ gh api -X POST repos/twehrbein/exmr-website/pages -f "source[branch]=main" -f "s
 
 The page is then served at https://twehrbein.github.io/exmr-website/ (like the FootMR page).
 
-## To do when available
-
-Search `index.html` for `TODO`:
-- Code button URL.
-
 ## Assets
 
 - `static/images/teaser.jpg`, `qualitative.jpg`, `sam3d.jpg`: Figs. 1, 4 and S1 of the paper,
@@ -30,3 +25,5 @@ Search `index.html` for `TODO`:
 - `static/images/method.jpg`: Fig. 2 (`wehrbein-fig2.pdf`).
 - `static/videos/exmr_video.mp4`: the 29 MB supplementary video (2560x720, 3:51), same content
   as the video submitted to TPAMI.
+- `static/images/favicon.svg`, `apple-touch-icon.png`: "Ex" tab icon in the page's accent blue (#1f6fb0);
+  the PNG is the SVG rendered at 180x180 without rounded corners.
