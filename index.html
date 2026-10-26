@@ -91,6 +91,7 @@
     }
     .btn:hover { text-decoration: none; opacity: 0.88; }
     .btn svg { width: 17px; height: 17px; fill: currentColor; }
+    .btn img { width: 19px; height: 19px; }
 
     section { padding: 38px 0; }
     section.soft { background: var(--bg-soft); }
@@ -180,6 +181,10 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
         Code
       </a>
+      <a class="btn" href="https://huggingface.co/spaces/twehrbein/ExMR">
+        <img src="static/images/hf-logo.svg" alt="" aria-hidden="true">
+        Demo
+      </a>
       <a class="btn" href="https://twehrbein.github.io/footmr-website/">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.4l-9.3 9.3-1.4-1.4L17.6 5H14V3zM5 5h6v2H5v12h12v-6h2v8H3V5h2z"/></svg>
         FootMR (3DV 2026)
@@ -236,6 +241,8 @@
         using ExMR, including hand and foot articulation. All results use automatically
         estimated person and hand bounding boxes. No ground-truth information is used at inference.</figcaption>
     </figure>
+    <p class="note">Try ExMR yourself in our
+      <a href="https://huggingface.co/spaces/twehrbein/ExMR">interactive demo on Hugging Face</a>.</p>
   </div>
 </section>
 

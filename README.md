@@ -27,3 +27,5 @@ The page is then served at https://twehrbein.github.io/exmr-website/ (like the F
   as the video submitted to TPAMI.
 - `static/images/favicon.svg`, `apple-touch-icon.png`: "Ex" tab icon in the page's accent blue (#1f6fb0);
   the PNG is the SVG rendered at 180x180 without rounded corners.
+- `static/images/hf-logo.svg`: official Hugging Face logo, unmodified, from
+  https://huggingface.co/brand (used on the Demo button linking to the Space).
